@@ -133,7 +133,7 @@ Then open the local URL shown in the terminal, usually:
 http://localhost:8501
 
 Example Use Cases
-
+---
 Research paper question answering
 
 Document summarization
@@ -145,7 +145,7 @@ Academic reading support
 Policy and report analysis
 
 Key Learning Outcomes
-
+---
 This project demonstrates practical experience in:
 
 Retrieval-Augmented Generation (RAG)
@@ -163,7 +163,7 @@ Streamlit app development
 End-to-end GenAI application building
 
 Future Improvements
-
+---
 Add conversation memory
 
 Support DOCX and TXT files
@@ -179,7 +179,7 @@ Deploy with Docker
 Add user authentication
 
 Author
-
+---
 Muhammad Khubaib Malik
 
 Generative AI Engineer | Python | LangChain | RAG Systems
