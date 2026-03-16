@@ -1,0 +1,7 @@
+high correlation with W , and what is the comparative size of âˆ† W to W ?
+The answers to these questions provide valuable insights for optimizing pre-
+trained models for downstream tasks.
+7.1 Selecting Optimal Weight Matrices for LoRA
+To optimize performance under a limited parameter budget, we explore adapting
+different weight matrices within the self-attention module of the Transformer.
+10ÿÿÿÿÿ
