@@ -1,5 +1,5 @@
-#AI Research Assistant (RAG-Based Document Q&A System)
-Overview
+**AI Research Assistant (RAG-Based Document Q&A System)**
+**Overview**
 
 This project is an AI-powered research assistant that enables users to upload PDF documents and ask natural language questions, receiving accurate answers grounded directly in the document content.
 
@@ -7,7 +7,7 @@ It is built using a Retrieval-Augmented Generation (RAG) pipeline, combining sem
 
 This type of system is ideal for businesses and teams looking to turn their internal documents into intelligent knowledge assistants.
 
-Key Features
+**Key Features**
 
 • Upload and process one or more PDF documents
 • Extract and intelligently chunk document content
@@ -18,7 +18,7 @@ Key Features
 • Display source snippets and page references for transparency
 • Reset documents and chat history easily
 
-Real-World Use Cases
+**Real-World Use Cases**
 
 • Internal company knowledge base assistant
 • Research and academic document analysis
@@ -26,7 +26,7 @@ Real-World Use Cases
 • Customer support knowledge systems
 • Report and document summarization
 
-Tech Stack
+**Tech Stack**
 
 • Python
 • Streamlit
@@ -37,7 +37,7 @@ Tech Stack
 • Llama 3.2 (3B)
 • PyPDF
 
-System Architecture
+**System Architecture**
 
 PDF Documents
 ↓
@@ -55,7 +55,8 @@ Local LLM (Ollama)
 ↓
 Answer with Source Citations
 
-How It Works
+**How It Works**
+
 Users upload one or more PDF documents
 The system extracts and processes the text
 Content is split into optimized chunks
@@ -64,7 +65,8 @@ Embeddings are stored in a vector database
 When a question is asked, relevant chunks are retrieved
 The retrieved context is passed to the LLM
 The system generates an accurate answer with source references
-Project Structure
+
+**Project Structure**
 
 ai-research-assistant/
 ├── app.py
@@ -79,7 +81,7 @@ ai-research-assistant/
 │ └── uploads/
 └── chroma_db/
 
-Installation
+**Installation**
 
 Clone the repository:
 
@@ -89,11 +91,11 @@ cd ai-research-assistant
 
 Create and activate a virtual environment
 
-Install dependencies:
+**Install dependencies:**
 
 pip install -r requirements.txt
 
-Setup Local LLM (Ollama)
+**Setup Local LLM (Ollama)**
 
 Download and install Ollama:
 
@@ -103,7 +105,7 @@ Then pull the model:
 
 ollama run llama3.2:3b
 
-Run the Application
+**Run the Application**
 
 streamlit run app.py
 
@@ -111,7 +113,7 @@ Open in browser:
 
 http://localhost:8501
 
-Key Capabilities Demonstrated
+**Key Capabilities Demonstrated**
 
 • Building end-to-end RAG pipelines
 • Working with vector databases and embeddings
@@ -120,7 +122,7 @@ Key Capabilities Demonstrated
 • Designing document-aware AI assistants
 • Developing interactive AI applications with Streamlit
 
-Future Improvements
+**Future Improvements**
 
 • Add conversation memory
 • Support additional file formats (DOCX, TXT)
@@ -130,7 +132,7 @@ Future Improvements
 • Docker-based deployment
 • User authentication and multi-user support
 
-Author
+**Author**
 
 Muhammad Khubaib Malik
 
